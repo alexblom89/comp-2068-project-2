@@ -6,4 +6,6 @@ module.exports = router => {
     router.post("/authors", create);
     router.put("/authors", update);
     router.delete("/authors", destroy);
+
+    return router;
 }

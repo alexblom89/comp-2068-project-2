@@ -1,4 +1,3 @@
-const { response } = require('express');
 const Book = require('../models/book');
 
 exports.index = async (req, resp, next) => {
