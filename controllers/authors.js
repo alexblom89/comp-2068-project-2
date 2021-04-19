@@ -83,7 +83,7 @@ exports.destroy = async (req, resp, next) => {
         await Author.findOneAndDelete({ _id: id });
 
         resp.status(200).json({
-            message: "Movie was deleted successfully",
+            message: "Author was deleted successfully",
             status: "success"
         });
 
